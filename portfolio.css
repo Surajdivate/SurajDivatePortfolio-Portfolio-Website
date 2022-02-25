@@ -1,0 +1,172 @@
+	body{
+		position:relative;
+		width:100%;
+		overflow-x:hidden;
+	}
+	#navbar_top{
+		background-color:black;
+		opacity:1;
+		
+	}
+
+	#icons a{
+		padding:10px;
+		color:white;
+		text-decoration:none;
+		font-size:30px;
+		border-radius:30px;
+		transition:0.5s;
+		position:relative;
+	}
+	
+	#icons a:hover{
+		color:grey;
+	}
+	#links a{
+		color:white;
+		font-size:25px;
+		display:relative;
+		transition:0.5s;
+		font-family: grotesk, aquirefont;
+	}
+	#links a:hover{
+		color:grey;
+		text-shadow:1px 1px 2px grey;
+	}
+	.letsconnect{	
+		color:grey;
+	}
+	.letsconnect h2{
+		font-size:20px;
+	}
+	.name{
+		padding-top:100px;
+		padding-left:30px;
+		position:relative;
+		overflow:hidden;
+	}
+	.name h1{
+		font-size:70px;
+		font-family: aquirefont;
+		color:white;
+		text-shadow:1px 1px 4px white;
+		transition:0.5s;
+	}
+	.name h1:hover{
+		 color: #ccccff;
+		 text-shadow:1px 1px 4px #ccccff;
+	}
+	@font-face{
+		font-family:grotesk;
+		src: url(font/SpaceGrotesk.ttf);
+	}
+	@font-face{
+		font-family:aquirefont;
+		src: url(font/font1.otf);
+	}
+	.home{
+		max-width:90%;
+		width:100%;
+		hight:100px;
+		margin:0 auto;
+		
+		display:flex;	
+		position:relative;
+		z-index:9;
+	}
+	
+	.homeleft{
+		width:100%;
+	}
+	.vid{
+		align-items:center;
+	}
+	
+	.description{
+		position:relative;
+
+		padding:20px;		
+		border-radius:30px;
+		background: rgba(128,128,128, 0.1);
+	}
+	.desc p{
+		padding:10px;
+		color:white;
+		font-family:grotesk;
+		font-size:25px;
+		opacity:0.5;
+	}
+
+	.buttons button{
+		margin:20px;
+		align:right;
+		font-size:20px;
+		font-family:grotesk;
+		transition:0.5s;
+	}
+	.buttons button:hover{
+		background-color:black;
+	}
+
+	h2,span{
+		color:white;
+		font-family:grotesk;
+	}
+	h1{
+		font-size:50px;
+		color:white;
+		font-family:aquirefont;
+	}
+	h4,h5{
+		color:#737373;
+		font-family:grotesk;
+	}
+	.gridtest{
+		width:100%;
+		display:grid;
+		grid-template-columns:repeat(4, 1fr);
+		gap:24px;
+		padding:20px;
+	}
+	.gridtest2{
+		padding-top:20px;
+		border-radius:80px;
+		background-color:white;
+		width:100px;
+		overflow:hidden;
+		text-align:center;
+		font-family:grotesk;
+	}
+	#edu{
+		width:100%;
+		position:relative;
+		
+		padding:20px;
+	}
+	
+	.card{
+		font-family:grotesk;
+		padding:20px;
+	}
+
+	@media screen and (max-width: 1000px) {
+	  #col2 {
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
+	  }
+	}
+	
+	#myVideo{
+	  position: fixed;
+	  opacity:0.5;
+	  
+	  min-width: 100%;
+	  min-height: 100%;	
+	}
+	#capt{
+		padding:30px;
+	}
